@@ -1,0 +1,44 @@
+body{
+    background-color:black;
+    text-align: center;
+}
+
+h1{
+    background-color: bisque;
+    padding: 5px;    
+}
+
+.geral{
+    background-color: rgb(122, 195, 171);
+    border: 2px solid rgb(13, 255, 0);
+    border-radius: 10px;
+    height: 3000px;
+    width: 500px;
+    margin-inline: auto;
+}
+
+.dadosVirolas{
+    /*background-color: rgb(40, 49, 44);
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+    padding: 5px;
+    display: inline-block;*/
+}
+
+td{
+    width: 38px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+h3{
+    padding: 5px;
+    background-color: bisque;    
+}
+
+table{
+    margin-inline: auto;
+}
