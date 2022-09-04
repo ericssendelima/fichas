@@ -19,7 +19,7 @@ function gerar(){
 
     for(let i = 0; i < nF; i++){
         num2 = 0;
-        flanges = [];
+        flanges =[];
         media = 0;
         somas = 0;
 
@@ -30,7 +30,7 @@ function gerar(){
         flanges.push(num1);//armazenando o aleatório no array
 
 
-        for(let i = 0; i < 3; i++){
+        for(let i = 0; i < 4; i++){
             num2 = Math.floor(Math.random() * 40 + 61); 
             //{[random(de 0 à 1) * (máx-mín)] + mín}
             // armazenando um aleatório em 'num2'
