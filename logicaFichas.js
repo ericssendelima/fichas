@@ -23,12 +23,7 @@ function gerar(){
         media = 0;
         somas = 0;
 
-        let num1 = Math.floor(Math.random() * 40 + 61);
-        if(num1 % 2 != 0){
-            num1++;
-        }
-        flanges.push(num1);//armazenando o aleatório no array
-
+    
 
         for(let i = 0; i < 4; i++){
             num2 = Math.floor(Math.random() * 40 + 61); 
