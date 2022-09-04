@@ -1,11 +1,13 @@
 body{
     background-color:black;
     text-align: center;
+    width: auto;
 }
 
 h1{
     background-color: bisque;
     padding: 5px;    
+    width: auto;
 }
 
 .geral{
@@ -37,6 +39,7 @@ td{
 h3{
     padding: 5px;
     background-color: bisque;    
+    width: auto;
 }
 
 table{
