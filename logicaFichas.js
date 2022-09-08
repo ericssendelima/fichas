@@ -1,6 +1,16 @@
 var nV;
 var nF;
 
+function gerar(){
+    nV = document.getElementById('entradaVirolas').value;
+    nF = document.getElementById('entradaTramos').value;
+    gerarVirolas();
+    gerarFlanges();
+    rugBend();
+    metBend();
+
+}
+
 
 function digitou(e){
     if(e.keyCode == 13){
