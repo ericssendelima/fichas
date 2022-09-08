@@ -5,22 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dados</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleFichas02.css">
 </head>
 <body>
     <div class="geral">
         <div class="rug">
             <h1>Rugosidade</h1>
-            <label>Digite o número de virolas: </label>
+            <label><b>Digite o número de virolas: </b></label>
             <input onkeyup="digitou(event)" id="entradaVirolas">
-            
-            <h3 id="virola">Virolas</h3>
-                
+            <br>
+            <label><b>Digite o número de tramos: </b></label>
+            <input onkeyup="digitouTramos(event)" id="entradaTramos">
+            <br>
+            <button id="botaoDados">Gerar dados</button>
 
-            <table id='contVirolas' class="dadosVirolas">
-                
+            <h3 id="virola">Virolas</h3> 
+            <table id='contVirolas' class="dadosVirolas">                      
             </table>
+
             <h3 id="flange">Flanges</h3>
+            <table id='contFlanges' class="dadosFlanges">   
+            </table>
+
+            <h1>Bend Test</h1>
+
+            <h3 id="rugBend">Rugosidade</h3>
+            <table id='contRug' class="dadosRug">   
+            </table>
+
+            <h3 id="metBend">Metalização</h3>
+            <table id='contMet' class="dadosMet">   
+            </table>
 
             
 
