@@ -1,5 +1,6 @@
 body{
     background-color:black;
+    background-image: url(images (3).jpeg);
     text-align: center;
     width: auto;
 }
@@ -8,24 +9,19 @@ h1{
     background-color: bisque;
     padding: 5px;    
     width: auto;
+    margin: 10px;
 }
 
 .geral{
-    background-color: rgb(122, 195, 171);
-    border: 2px solid rgb(13, 255, 0);
+    background-color: rgba(74, 74, 159, 0.409);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     height: auto;
     width: auto;
     margin-inline: auto;
+    
 }
 
-.dadosVirolas{
-    /*background-color: rgb(40, 49, 44);
-    border-top: 2px dashed black;
-    border-bottom: 2px dashed black;
-    padding: 5px;
-    display: inline-block;*/
-}
 
 td{
     width: 38px;
@@ -40,8 +36,17 @@ h3{
     padding: 5px;
     background-color: bisque;    
     width: auto;
+    margin: 10px;
 }
 
 table{
     margin-inline: auto;
+}
+
+#entradaVirolas{
+    margin: 5px;
+}
+
+#botaoDados{
+    margin: 10px;
 }
