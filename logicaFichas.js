@@ -108,7 +108,7 @@ function gerarVirolas(){
 
         //criando a célula para o resultado da média em si 
         novaBr = document.createElement('td');
-        mediaNew = document.createTextNode(media.toFixed(2));
+        mediaNew = document.createTextNode(media.toFixed(1));
         novaBr.appendChild(mediaNew);
         document.getElementById('contVirolas').appendChild(novaBr);
 
@@ -189,7 +189,7 @@ function gerarFlanges(){
 
         //criando a célula para o resultado da média em si 
         novaBr = document.createElement('td');
-        mediaNew = document.createTextNode(media.toFixed(2));
+        mediaNew = document.createTextNode(media.toFixed(1));
         novaBr.appendChild(mediaNew);
         document.getElementById('contFlanges').appendChild(novaBr);
 
