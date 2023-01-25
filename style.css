@@ -1,42 +1,48 @@
 body{
-    background-color:black;
-    background-image: url(torre.jpeg);
+    background-image: url(image.jpeg);
     text-align: center;
     width: auto;
 }
 
 h1{
-    background-color: bisque;
+    background-color: rgba(131, 223, 171);
     padding: 5px;    
     width: auto;
     margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+
 }
 
 .geral{
-    background-color: rgba(74, 74, 159, 0.409);
-    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(118, 184, 201, 0.847);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     height: auto;
     width: auto;
     margin-inline: auto;
     
+    
+    
 }
+
 
 
 td{
     width: 38px;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
     padding: 5px;
     margin: 5px;
     background-color: white;
+    border-radius: 10px;
 }
 
 h3{
     padding: 5px;
-    background-color: bisque;    
+    background-color: rgb(131, 223, 171);    
     width: auto;
     margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 table{
