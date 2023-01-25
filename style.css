@@ -1,58 +1,89 @@
 body{
-    background-image: url(image.jpeg);
+    background-image: url(img03.jpg);
     text-align: center;
     width: auto;
 }
 
 h1{
-    background-color: rgba(131, 223, 171);
-    padding: 5px;    
-    width: auto;
-    margin: 10px;
+    padding: 8px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: rgb(143, 227, 213);    
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
-    border: 1px solid black;
-
+    font-family: 'Lucida Sans';
 }
 
 .geral{
-    background-color: rgba(118, 184, 201, 0.847);
+    background-color: rgba(31, 31, 31, 0.5);
     border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     height: auto;
     width: auto;
     margin-inline: auto;
-    
-    
-    
 }
-
-
 
 td{
     width: 38px;
     padding: 5px;
     margin: 5px;
-    background-color: white;
+    background-color: rgb(23, 22, 22);
     border-radius: 10px;
+    color: white;
 }
 
 h3{
-    padding: 5px;
-    background-color: rgb(131, 223, 171);    
-    width: auto;
-    margin: 10px;
+
+    font-family: 'Lucida Sans';
+    padding: 8px;
+    background-color: rgb(143, 227, 213);    
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
-    border: 1px solid black;
+   
 }
 
 table{
     margin-inline: auto;
 }
 
-#entradaVirolas{
+label{
+    width: 38px;
+    padding: 5px;
     margin: 5px;
+    border-radius: 10px;
+    background-color: rgba(143, 227, 213, 0.852);   
+
 }
+
+#entradaVirolas, #entradaTramos{
+    width: 38px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+    background-color: rgb(59, 61, 61);  
+    color: white;  
+
+}
+
+
 
 #botaoDados{
     margin: 10px;
+    padding: 5px;
+    background-color:white;    
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px;
+    font-family: 'Lucida Sans';
+   
+
 }
