@@ -2,7 +2,7 @@ body{
     background-image: url(img03.jpg);
     background-repeat: no-repeat;
     text-align: center;
-    width: auto;
+    width: 100%;
 }
 
 h1{
