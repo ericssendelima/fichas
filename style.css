@@ -1,14 +1,7 @@
-html{
-    background-image: url(img03.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
 body{
-    background-color: rgba(67, 31, 31, 0);
+    background-image: url(img03.jpg);
     text-align: center;
-    width: 100%;
+    width: auto;
 }
 
 h1{
