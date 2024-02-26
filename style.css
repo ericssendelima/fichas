@@ -1,6 +1,10 @@
-body{
+html{
     background-image: url(img03.jpg);
     background-repeat: no-repeat;
+
+}
+body{
+    
     text-align: center;
     width: 100%;
 }
