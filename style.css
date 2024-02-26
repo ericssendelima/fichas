@@ -4,8 +4,9 @@ html{
     background-size: cover;
 
 }
+
 body{
-    background-color: transparent;
+    background-color: rgba(31, 31, 31, 1);
     text-align: center;
     width: 100%;
 }
