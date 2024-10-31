@@ -287,7 +287,7 @@ function metBend(){
 
             for(let i = 0; i < 3; i++){
                 let num2 = 0;
-                num2 = Math.floor(Math.random() * 70 + 60); 
+                num2 = Math.floor(Math.random() * 60 + 90); 
                 //{[random(de 0 à 1) * (máx-mín)] + mín}
                 // armazenando um aleatório em 'num2'
                 if(num2 % 2 != 0){
@@ -299,7 +299,7 @@ function metBend(){
                 if(c == -1){
                     flanges2.push(num2);//armazenando o aleatório no array
                 }else{
-                    num2 = Math.floor(Math.random() * 70 + 60); 
+                    num2 = Math.floor(Math.random() * 60 + 90); 
                 //{[random(de 0 à 1) * (máx-mín)] + mín}
                 // armazenando um aleatório em 'num2'
                     if(num2 % 2 != 0){
