@@ -15,18 +15,15 @@ function gerar(){
 function digitou(e){
     if(e.keyCode == 13){
         nV = document.getElementById('entradaVirolas').value;
-        gerarVirolas();
+        gerar();
     }
 }
 
-function digitouTramos(e){
-    if(e.keyCode == 13){
-        nF = document.getElementById('entradaTramos').value;
-        gerarFlanges();
-        rugBend();
-        metBend();
-    }
-}
+// function digitouTramos(e){
+//     if(e.keyCode == 13){
+//         nF = document.getElementById('entradaTramos').value;
+//     }
+// }
 
 
 
@@ -47,10 +44,11 @@ function gerarVirolas(){
             num2 = Math.floor(Math.random() * 40 + 61); 
             //{[random(de 0 à 1) * (máx-mín)] + mín}
             // armazenando um aleatório em 'num2'
-            if(num2 % 2 != 0){
-                num2++;/*verivicando se o aleatório gerado é par e somando
+            // if(num2 % 2 != 0){
+            // num2++;
+               /*verivicando se o aleatório gerado é par e somando
                 +1 caso seja impar */
-            }
+            // }
 
             let c = flanges.indexOf(num2);//indice do elemento gerado
             if(c == -1){
@@ -59,10 +57,11 @@ function gerarVirolas(){
                 num2 = Math.floor(Math.random() * 40 + 61); 
             //{[random(de 0 à 1) * (máx-mín)] + mín}
             // armazenando um aleatório em 'num2'
-                if(num2 % 2 != 0){
-                    num2++;/*verivicando se o aleatório gerado é par e somando
+                // if(num2 % 2 != 0){
+                    // num2++;
+                    /*verivicando se o aleatório gerado é par e somando
                     +1 caso seja impar */
-                }
+                // }
                 flanges.push(num2);//armazenando o aleatório no array
 
 
@@ -108,7 +107,7 @@ function gerarVirolas(){
 
         //criando a célula para o resultado da média em si 
         novaBr = document.createElement('td');
-        mediaNew = document.createTextNode(media.toFixed(1));
+        mediaNew = document.createTextNode(Math.round(media).toFixed(1));
         novaBr.appendChild(mediaNew);
         document.getElementById('contVirolas').appendChild(novaBr);
 
@@ -138,10 +137,11 @@ function gerarFlanges(){
             num2 = Math.floor(Math.random() * 48 + 100); 
             //{[random(de 0 à 1) * (máx-mín)] + mín}
             // armazenando um aleatório em 'num2'
-            if(num2 % 2 != 0){
-                num2++;/*verivicando se o aleatório gerado é par e somando
+            // if(num2 % 2 != 0){
+            //     num2++;
+                /*verivicando se o aleatório gerado é par e somando
                 +1 caso seja impar */
-            }
+            // }
 
             let c = flanges.indexOf(num2);//indice do elemento gerado
             if(c == -1){
@@ -150,10 +150,11 @@ function gerarFlanges(){
                 num2 = Math.floor(Math.random() * 48 + 100); 
             //{[random(de 0 à 1) * (máx-mín)] + mín}
             // armazenando um aleatório em 'num2'
-                if(num2 % 2 != 0){
-                    num2++;/*verivicando se o aleatório gerado é par e somando
+                // if(num2 % 2 != 0){
+                //     num2++;
+                    /*verivicando se o aleatório gerado é par e somando
                     +1 caso seja impar */
-                }
+              //  }
                 flanges.push(num2);//armazenando o aleatório no array
 
 
@@ -189,7 +190,7 @@ function gerarFlanges(){
 
         //criando a célula para o resultado da média em si 
         novaBr = document.createElement('td');
-        mediaNew = document.createTextNode(media.toFixed(1));
+        mediaNew = document.createTextNode(Math.round(media).toFixed(1));
         novaBr.appendChild(mediaNew);
         document.getElementById('contFlanges').appendChild(novaBr);
 
@@ -219,10 +220,11 @@ function rugBend(){
                 num2 = Math.floor(Math.random() * 50 + 100); 
                 //{[random(de 0 à 1) * (máx-mín)] + mín}
                 // armazenando um aleatório em 'num2'
-                if(num2 % 2 != 0){
-                    num2++;/*verivicando se o aleatório gerado é par e somando
+                // if(num2 % 2 != 0){
+                //     num2++;
+                    /*verivicando se o aleatório gerado é par e somando
                     +1 caso seja impar */
-                }
+                // }
 
                 let c = flanges.indexOf(num2);//indice do elemento gerado
                 if(c == -1){
@@ -231,9 +233,9 @@ function rugBend(){
                     num2 = Math.floor(Math.random() * 50 + 100); 
                 //{[random(de 0 à 1) * (máx-mín)] + mín}
                 // armazenando um aleatório em 'num2'
-                    if(num2 % 2 != 0){
-                        num2++;
-                    }
+                    // if(num2 % 2 != 0){
+                    //     num2++;
+                    // }
                     flanges2.push(num2);//armazenando o aleatório no array
                 }       
             
@@ -290,10 +292,11 @@ function metBend(){
                 num2 = Math.floor(Math.random() * 60 + 90); 
                 //{[random(de 0 à 1) * (máx-mín)] + mín}
                 // armazenando um aleatório em 'num2'
-                if(num2 % 2 != 0){
-                    num2++;/*verivicando se o aleatório gerado é par e somando
+                // if(num2 % 2 != 0){
+                //     num2++;
+                    /*verivicando se o aleatório gerado é par e somando
                     +1 caso seja impar */
-                }
+                // }
 
                 let c = flanges.indexOf(num2);//indice do elemento gerado
                 if(c == -1){
@@ -302,9 +305,9 @@ function metBend(){
                     num2 = Math.floor(Math.random() * 60 + 90); 
                 //{[random(de 0 à 1) * (máx-mín)] + mín}
                 // armazenando um aleatório em 'num2'
-                    if(num2 % 2 != 0){
-                        num2++;
-                    }
+                    // if(num2 % 2 != 0){
+                    //     num2++;
+                    // }
                     flanges2.push(num2);//armazenando o aleatório no array
                 }       
             
