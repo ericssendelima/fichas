@@ -25,7 +25,15 @@ function digitou(e){
 //     }
 // }
 
+function checarDecimalMedia(media){
+    const mediaTransformada = media * 10;
 
+    if (mediaTransformada % 5 == 0) {
+        return media.toFixed(1);
+    } else {
+        return Math.round(media).toFixed(1);
+    }
+}
 
 function gerarVirolas(){    
     let flanges = [];
@@ -107,7 +115,9 @@ function gerarVirolas(){
 
         //criando a célula para o resultado da média em si 
         novaBr = document.createElement('td');
-        mediaNew = document.createTextNode(Math.round(media).toFixed(1));
+        let mediaProcessada = checarDecimalMedia(media)
+
+        mediaNew = document.createTextNode(mediaProcessada);
         novaBr.appendChild(mediaNew);
         document.getElementById('contVirolas').appendChild(novaBr);
 
@@ -190,7 +200,10 @@ function gerarFlanges(){
 
         //criando a célula para o resultado da média em si 
         novaBr = document.createElement('td');
-        mediaNew = document.createTextNode(Math.round(media).toFixed(1));
+        let mediaProcessada = checarDecimalMedia(media)
+
+
+        mediaNew = document.createTextNode(mediaProcessada);
         novaBr.appendChild(mediaNew);
         document.getElementById('contFlanges').appendChild(novaBr);
 
